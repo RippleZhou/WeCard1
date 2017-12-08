@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="flex-column align-center  header">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl||'/icons/head-icon.jpg'}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+</view>
+<!--收到的贺卡-->
+<view class="section">
+    <view class="flex-row" style="display: flex; flex-direction: row;">
+        <view class="flex-view-item my-card" style="width:50%;"><image src='{{userInfo.avatarUrl}}' style="width:100%;"></image></view>
+        <view class="flex-view-item my-card" style="width:50%;"><image src='{{userInfo.avatarUrl}}' style="width:100%;"></image></view>
+    </view>   
+</view>
+
+<view class="section">
+    <view class="flex-row" style="display: flex; flex-direction: row;">
+        <view class="flex-view-item my-card" style="width:50%;"><image src='{{userInfo.avatarUrl}}' style="width:100%;"></image></view>
+        <view class="flex-view-item my-card" style="width:50%;"><image src='{{userInfo.avatarUrl}}' style="width:100%;"></image></view>
+    </view>   
+</view>

@@ -1,0 +1,16 @@
+<!--pages/jointime/jointime.wxml-->
+<view class="container flex-column">
+    <navigator url="../indexlist/indexlist" hover-class="none">
+        <view class="card flex-1 flex-column flex-center align-center">
+            <image src="/icons/data-list.png" mode="widthFix"></image>
+            <text>每日打卡记录</text>
+        </view>
+    </navigator>
+    <navigator url="../chart/chart?type=10&patientid={{userInfo.patientid}}" hover-class="none">
+        <view class="card flex-1 flex-column flex-center align-center">
+             <image src="/icons/data.png" mode="widthFix"></image>
+             <text>身体数据记录</text>
+        </view>
+    </navigator>
+</view>
+
